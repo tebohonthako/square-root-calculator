@@ -1,0 +1,71 @@
+body {
+  background: radial-gradient(
+    371px at 2.9% 14.3%,
+    rgb(255, 0, 102) 0%,
+    rgb(80, 5, 35) 100.7%
+  );
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.main {
+  margin-left: 140 px;
+  position: relative;
+  top: 4rem;
+  display: flex;
+}
+.calculatorForm {
+  border: 1px solid black;
+  padding: 3rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(95, 88, 88),
+    rgba(51, 45, 45)
+  );
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+}
+.btn {
+  position: relative;
+  bottom: 0.2rem;
+}
+.btn input {
+  border-radius: 1.5rem;
+  background-color: aliceblue;
+  color: black;
+  border-color: blanchedalmond;
+}
+.btn input:hover {
+  background-color: #500523;
+  border: #d678a1;
+  cursor: grab;
+  transition: all 0.1ms ease-in-out;
+}
+#screen {
+  position: relative;
+  padding: 0.5rem;
+  width: 88%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.btn-primary {
+  padding: 1rem;
+}
+.codedby {
+  color: azure;
+  text-align: center;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  color: blanchedalmond;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
